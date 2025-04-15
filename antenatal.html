@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Antenatal Care Unit</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #f4f7fc;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            color: white;
+            text-align: center;
+            padding: 3rem;
+            background-image: url('ante.jpg');
+            background-size: cover;
+            background-position: center;
+            position: relative;
+            height: 350px; /* Adjust height of the header */
+        }
+        header h1 {
+            margin: 0;
+            font-size: 3rem;
+        }
+        header p {
+            font-size: 1.5rem;
+        }
+        header::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.4); /* Adding overlay for text contrast */
+        }
+        main {
+            padding: 20px;
+            max-width: 1200px;
+            margin: auto;
+        }
+        section {
+            margin-bottom: 40px;
+        }
+        h2 {
+            color: #00796b;
+            font-size: 2rem;
+            margin-bottom: 1rem;
+        }
+        p {
+            font-size: 1rem;
+            line-height: 1.6;
+            color: #333;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            font-size: 1rem;
+            color: #555;
+            margin-bottom: 10px;
+        }
+        .services-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+        }
+        .service-item {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+        .service-item:hover {
+            transform: translateY(-5px);
+        }
+        footer {
+            text-align: center;
+            padding: 1.5rem;
+            background-color: #00796b;
+            color: white;
+            font-size: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Antenatal Care Unit</h1>
+        <p>Comprehensive Care for Expecting Mothers</p>
+    </header>
+    <main>
+        <section>
+            <h2>About Our Antenatal Care Unit</h2>
+            <p>Our Antenatal Care (ANC) Unit is dedicated to providing exceptional care to expectant mothers throughout their pregnancy journey. We aim to promote and protect the health of women and their unborn babies, ensuring a healthy mother and a healthy baby at the end of pregnancy.</p>
+        </section>
+        <section>
+            <h2>Our Services</h2>
+            <div class="services-list">
+                <div class="service-item">
+                    <h3>Comprehensive Prenatal Check-ups</h3>
+                    <p>Regular health assessments to monitor the well-being of both mother and baby, including blood tests, ultrasounds, and screenings for common pregnancy complications.</p>
+                </div>
+                <div class="service-item">
+                    <h3>Nutrition and Wellness Counseling</h3>
+                    <p>Personalized dietary guidance and wellness plans to support a healthy pregnancy, addressing the unique needs of each expectant mother.</p>
+                </div>
+                <div class="service-item">
+                    <h3>Labor and Delivery Preparation</h3>
+                    <p>Educational classes and resources to prepare for childbirth, covering topics such as pain management options, birthing plans, and post-delivery care.</p>
+                </div>
+                <div class="service-item">
+                    <h3>Postpartum Support</h3>
+                    <p>Comprehensive care following childbirth, including breastfeeding support, mental health counseling, and physical recovery assistance.</p>
+                </div>
+            </div>
+        </section>
+        <section>
+            <h2>Why Choose Our ANC Unit?</h2>
+            <ul>
+                <li><strong>Experienced Healthcare Professionals:</strong> Our team comprises skilled obstetricians, nurses, and support staff committed to providing compassionate care.</li>
+                <li><strong>State-of-the-Art Facilities:</strong> Equipped with modern medical technology to ensure accurate diagnostics and effective treatment plans.</li>
+                <li><strong>Personalized Care Plans:</strong> We recognize that each pregnancy is unique, offering tailored services to meet individual needs.</li>
+                <li><strong>Supportive Environment:</strong> A comfortable and welcoming atmosphere for expectant mothers and their families, promoting relaxation and peace of mind.</li>
+            </ul>
+        </section>
+        <section>
+            <h2>Contact Us</h2>
+            <p>If you have questions or would like to schedule an appointment, please reach out to us:</p>
+            <p>Email: <a href="mailto:info@healthsphere.com">info@healthsphere.com</a></p>
+            <p>Phone: (256)747766685</p>
+            <p>Address: 121 Kakira, Kakira town, Jinja</p>
+        </section>
+    </main>
+    <footer>
+        <p>© 2025 Healthcare System. All rights reserved.</p>
+        <p>Developed by Irahari Samson.</p>
+        <p>™ simpsoncodes</p>
+    </footer>
+</body>
+</html>
